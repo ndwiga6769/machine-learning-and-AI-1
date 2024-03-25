@@ -1,4 +1,5 @@
 from logic import *
+from termcolor import colored
 
 rain = Symbol("rain")
 hagrid = Symbol("hagrid")
@@ -10,7 +11,7 @@ knowledge = And(
     Not(And(hagrid, dumbledore)),
     dumbledore
 )
-
+print(colored("hello world","green"))
 print(model_check(knowledge, rain))
 
 # Sentence = And(rain,hagrid)
