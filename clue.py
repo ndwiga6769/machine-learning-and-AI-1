@@ -1,5 +1,9 @@
 import termcolor
-
+# termcolor is a Python module used for adding colored
+#  output to the terminal. It provides a simple way to 
+# add colored text to your command-line interface (CLI)
+#  applications, making them more visually appealing and
+#  easier to read
 from logic import *
 
 mustard = Symbol("ColMustard")

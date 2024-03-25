@@ -12,3 +12,7 @@ knowledge = And(
 )
 
 print(model_check(knowledge, rain))
+
+# Sentence = And(rain,hagrid)
+
+# print(Sentence.formula())
