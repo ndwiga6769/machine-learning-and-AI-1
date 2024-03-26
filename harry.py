@@ -4,7 +4,12 @@ from logic import *
 rain = Symbol("rain")
 hagrid = Symbol("hagrid")
 dumbledore = Symbol("dumbledore")
-knowledge = Implication(Not(rain), hagrid)
+knowledge = And (
+    Implication(Not(rain), hagrid),
+    Or(hagrid, dumbledore),
+    Not(And(hagrid,dumbledore)),
+    dumbledore
+)
 # knowledge = And(
 #     Implication(Not(rain), hagrid),
 #     Or(hagrid, dumbledore),
