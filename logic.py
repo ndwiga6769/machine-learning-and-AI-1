@@ -1,5 +1,7 @@
 import itertools
-
+# itertools is actually a standard library module 
+# in Python, meaning it's included with Python by 
+# default. You don't need to install it separately.
 
 class Sentence():
 
